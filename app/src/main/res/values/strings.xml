@@ -24,4 +24,18 @@
     <string name="SpinnerListadetransmis">Va Vacio</string>
     <string name="title_activity_mapa_de_bogota">Map</string>
 
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_premios_por_redimir">PremiosPorRedimir</string>
+    <color name="verdeFondo">#ffc6ca68</color>
+    <color name="verdeColaborar">#ff00a131</color>
+    <color name="verderedimir">#ffd1a803</color>
+    <color name="Fondo">#ffd3ce7d</color>
+    <color name="letra">#ffffff</color>
+    <string-array name="ListadodeRutas">
+        <item>H15 Portal Tunal</item>
+        <item>H20 Portal Usme</item>
+        <item>F1 Portal americas</item>
+
+    </string-array>
+
 </resources>

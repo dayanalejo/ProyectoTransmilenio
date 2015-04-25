@@ -44,18 +44,18 @@
         <dex dex="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\pre-dexed\debug\classes-547b380c9604603229899e54259e028b6f4d0e37.jar" />
     </item>
     <item
-        jar="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\pre-dexed\debug\classes-fe1b281d9f8f874cc16f94ebd346c66528aa29b4.jar" />
-    </item>
-    <item
         jar="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="c976518693e89ad44fbfccfc654941eaec198d08">
         <dex dex="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\pre-dexed\debug\classes-8a25fa52a6505fb94cfdf3dedfdc24c92bebe2d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\pre-dexed\debug\classes-fe1b281d9f8f874cc16f94ebd346c66528aa29b4.jar" />
     </item>
     <item
         jar="C:\Users\DayanaVaio\Documents\GitHub\ProyectoTransmilenio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"

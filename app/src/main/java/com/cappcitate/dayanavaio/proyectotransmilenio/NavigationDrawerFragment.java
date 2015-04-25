@@ -287,9 +287,9 @@ public class NavigationDrawerFragment extends Fragment {
     public void ClicButton(View view )
     {
         // Llama una actividad(Ventana)
-        Toast.makeText(this,getResources().getString(R.string.Btn_label), LENGTH_LONG).show();
+       // Toast.makeText(this,getResources().getString(R.string.Btn_label), LENGTH_LONG).show();
         Intent intent;
-        intent = new Intent(this,CompartirInfoBus.class);
+        intent = new Intent(getActivity(),CompartirInfoBus.class);
 
 
 

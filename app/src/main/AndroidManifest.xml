@@ -26,8 +26,16 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".PuntosYPerfil"
-            android:label="@string/title_activity_puntos_yperfil" >
+            android:name=".CompartirInfoBus"
+            android:label="@string/title_activity_compartir_info_bus" >
+        </activity>
+        <activity
+            android:name=".MapaDeBogota"
+            android:label="@string/title_activity_mapa_de_bogota" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,13 +43,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CompartirInfoBus"
-            android:label="@string/title_activity_compartir_info_bus" >
-
-        </activity>
-        <activity
-            android:name=".MapaDeBogota"
-            android:label="@string/title_activity_mapa_de_bogota" >
+            android:name=".PremiosPorRedimir"
+            android:label="@string/title_activity_premios_por_redimir" >
         </activity>
     </application>
 

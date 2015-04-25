@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/Fondo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <ImageView
+            android:layout_width="196dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/logo_home" />
+
+           <ImageView
+               android:layout_width="56dp"
+               android:layout_height="50dp"
+               android:id="@+id/imageView"
+            android:src="@drawable/puntos"
+               />
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="50dp"
+            android:src="@drawable/recuadro_puntos"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Spinner
+            android:id="@+id/ListadodeRutas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decide"
+            android:textSize="20dp"
+            android:textColor="@color/verdeColaborar"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:onClick="ClicReportar"
+            android:text="COLABORAR"
+            android:layout_marginTop="15dp"
+            android:id="@+id/BtnReportar"
+            android:background="@color/verdeColaborar"
+            android:textColor="@color/letra" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ó"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/verdeColaborar"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:onClick="ClicRedimir"
+            android:text="REDIMIR"
+            android:layout_marginTop="5dp"
+            android:id="@+id/BtnRedimir"
+            android:background="@color/verderedimir"
+            android:textColor="@color/letra" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

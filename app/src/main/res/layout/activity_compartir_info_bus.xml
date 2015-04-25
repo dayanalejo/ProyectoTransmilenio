@@ -3,7 +3,8 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/verdeFondo">
 
 
     <LinearLayout
@@ -14,30 +15,52 @@
         <ImageButton
             android:onClick="BtnReportTransmiVeryFull"
             android:id="@+id/BtnTransmiFull"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
             android:text="@string/BtnTransmiFull"
-            android:layout_weight="1"
-            android:src="@drawable/sad"
-            android:layout_gravity="center_horizontal" />
+            android:src="@drawable/lleno_icon" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LLENO"
+            android:textSize="20dp"
+            android:textColor="@color/verdeColaborar"
+            android:textStyle="bold"
+            />
         <ImageButton
             android:onClick="BtnReportTransmiVeryNormal"
             android:id="@+id/BtnTransmiNormal"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/BtnTransmiNormal"
             android:layout_weight="1"
-            android:src="@drawable/normal"
+            android:src="@drawable/normal_icon"
             android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APENAS"
+            android:textSize="20dp"
+            android:textColor="@color/verdeColaborar"
+            android:textStyle="bold"
+            />
         <ImageButton
             android:onClick="BtnReportTransmiVoid"
             android:id="@+id/BtnTransmiVoid"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/BtnTransmiVoid"
             android:layout_weight="1"
-            android:src="@drawable/good"
+            android:src="@drawable/vacio_icon"
             android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡¡VA VACIO!!"
+            android:textSize="20dp"
+            android:textColor="@color/verdeColaborar"
+            android:textStyle="bold"
+            />
     </LinearLayout>
 
 
