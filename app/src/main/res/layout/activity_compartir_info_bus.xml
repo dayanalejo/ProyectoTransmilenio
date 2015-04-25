@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"    >
+        <ImageButton
+            android:onClick="BtnReportTransmiVeryFull"
+            android:id="@+id/BtnTransmiFull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnTransmiFull"
+            android:layout_weight="1"
+            android:src="@drawable/sad"
+            android:layout_gravity="center_horizontal" />
+        <ImageButton
+            android:onClick="BtnReportTransmiVeryNormal"
+            android:id="@+id/BtnTransmiNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnTransmiNormal"
+            android:layout_weight="1"
+            android:src="@drawable/normal"
+            android:layout_gravity="center_horizontal" />
+        <ImageButton
+            android:onClick="BtnReportTransmiVoid"
+            android:id="@+id/BtnTransmiVoid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnTransmiVoid"
+            android:layout_weight="1"
+            android:src="@drawable/good"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProyectoTransmilenio</string>
+    <string name="title_activity_mapa_bogota">Map</string>
+    <string name="title_activity_compartir_info_bus">¿Como vas el Transmi?</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_perfil_ypuntos">PerfilYPuntos</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_puntos_yperfil">PuntosYPerfil</string>
+
+    <string name="BtnTransmiFull">Muy Lleno</string>
+    <string name="BtnTransmiNormal">Esta Normal</string>
+    <string name="BtnTransmiVoid">Va Vacio</string>
+
+    <string name="SpinnerListadetransmis">Va Vacio</string>
+    <string name="title_activity_mapa_de_bogota">Map</string>
+
+</resources>
