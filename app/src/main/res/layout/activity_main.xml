@@ -37,7 +37,8 @@
         <Spinner
             android:id="@+id/ListadodeRutas"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:clickable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -82,8 +83,6 @@
             android:textColor="@color/letra" />
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>
