@@ -6,8 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.ArrayAdapter;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -19,9 +17,11 @@ public class PremiosPorRedimir extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_premios_por_redimir);
+      /*  super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_premios_por_redimir);
 
         // Find the ListView resource.
-        mainListView = (ListView) findViewById( R.id.listadeNotificaciones );
+        mainListView = (ListView) findViewById( R.id.ListadodeRutas );
 
         // Create and populate a List of planet names.
         String[] planets = new String[] { "Mercury", "Venus", "Earth", "Mars",
@@ -42,7 +42,7 @@ public class PremiosPorRedimir extends ActionBarActivity {
         listAdapter.add( "Eris" );
 
         // Set the ArrayAdapter as the ListView's adapter.
-        mainListView.setAdapter( listAdapter );
+        mainListView.setAdapter( listAdapter );*/
     }
 
 

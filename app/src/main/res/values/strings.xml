@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProyectoTransmilenio</string>
+    <string name="app_name">!Voy Vacio¡</string>
     <string name="title_activity_mapa_bogota">Map</string>
     <string name="title_activity_compartir_info_bus">¿Como vas el Transmi?</string>
 
@@ -24,7 +24,7 @@
     <string name="SpinnerListadetransmis">Va Vacio</string>
     <string name="title_activity_mapa_de_bogota">Map</string>
 
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">!Voy Vacio¡</string>
     <string name="title_activity_premios_por_redimir">PremiosPorRedimir</string>
     <color name="verdeFondo">#ffc6ca68</color>
     <color name="verdeColaborar">#ff00a131</color>

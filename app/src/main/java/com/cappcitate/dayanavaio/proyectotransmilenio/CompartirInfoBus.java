@@ -1,11 +1,16 @@
 package com.cappcitate.dayanavaio.proyectotransmilenio;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.app.AlertDialog;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +48,52 @@ public class CompartirInfoBus extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void BtnReportTransmiVeryNormal(View view)
+    {
+       // Toast.makeText(this,"Huy super, ahora mismo histe feliz a alguien", Toast.LENGTH_LONG).show();
+        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setTitle("Tienes un punto");
+        alertDialog.setMessage("Ahora mismo feliz a alguien");
+        alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+// here you can add functions
+            }
+        });
+        alertDialog.setIcon(R.drawable.normal_icon);
+        alertDialog.show();
+    }
+    public void BtnReportTransmiVoid(View view)
+    {
+        //Toast.makeText(this,"Que? En este momento hiciste feliz a muchas personas", Toast.LENGTH_LONG).show();
+        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setTitle("Tienes un Punto");
+        alertDialog.setMessage("Listo gracias por tu reporte");
+        alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+// here you can add functions
+            }
+        });
+        alertDialog.setIcon(R.drawable.vacio_icon);
+        alertDialog.show();
+    }
+
+    public void BtnReportTransmiVeryFull(View view)
+    {
+         //Toast.makeText(this,"Listo gracias por tu reporte", Toast.LENGTH_LONG).show();
+        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        alertDialog.setTitle("Tienes un Punto");
+        alertDialog.setMessage("Listo gracias por tu reporte");
+        alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+// here you can add functions
+            }
+        });
+        alertDialog.setIcon(R.drawable.lleno_icon);
+        alertDialog.show();
+    }
+
+
 
     private void DatosPorDefecto() {
         ListaDesplegable = (Spinner) findViewById(R.id.ListadodeTransmis);
